@@ -1,6 +1,13 @@
 var http = require('http')
+var ecstatic = require('ecstatic')
 
-http.createServer(function (req, res) {
-  res.writeHead(418, { 'Content-Type': 'text/plain' })
-  res.end('I\'m a teapot\n')
-}).listen(process.env.PORT || 1337)
+var staticd = ecstatic({
+  root: __dirname + '/static',
+  showDir: true,
+  autoIndex: true,
+  gzip: true
+})
+
+var server = http.createServer(staticd)
+
+server.listen(process.env.PORT || 1337)

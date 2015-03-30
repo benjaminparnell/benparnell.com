@@ -1,0 +1,16 @@
+#header {
+  margin-top: 180px;
+  text-align: center;
+}
+
+.title a {
+  text-decoration: none;
+}
+
+.title a:hover {
+  text-docoration: underline;
+}
+
+a {
+  color: #38E0F2;
+}
