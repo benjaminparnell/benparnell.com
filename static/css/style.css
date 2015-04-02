@@ -1,16 +1,25 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 #header {
   margin-top: 180px;
-  text-align: center;
 }
 
 .title a {
   text-decoration: none;
 }
 
-.title a:hover {
-  text-docoration: underline;
-}
-
 a {
   color: #38E0F2;
+}
+
+.twitter:hover {
+  color: #38E0F2;
+  border-color: #38E0F2;
+}
+
+.npm:hover {
+  color: #cb3837;
+  border-color: #cb3837;
 }
