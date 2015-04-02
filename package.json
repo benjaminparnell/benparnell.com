@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "engines": {
-    "node": "1.6.3"
+    "iojs": "1.6.3"
   },
   "author": "Ben Parnell <me@benparnell.com>",
   "license": "MIT",
