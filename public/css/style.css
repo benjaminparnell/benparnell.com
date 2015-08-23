@@ -1,0 +1,19 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+  margin-top: 180px;
+}
+
+.title a {
+  text-decoration: none;
+}
+
+a {
+  color: #4183c4;
+}
+
+a:hover {
+  color: #4173c4;
+}
