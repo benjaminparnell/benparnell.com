@@ -1,0 +1,20 @@
+{
+  "name": "benparnell.com",
+  "version": "1.0.0",
+  "homepage": "https://github.com/benjaminparnell/benparnell.com",
+  "authors": [
+    "Ben Parnell <benjaminparnell.94@gmail.com>"
+  ],
+  "main": "server.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "typed.js": "*"
+  }
+}
