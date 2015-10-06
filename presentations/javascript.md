@@ -145,5 +145,24 @@ cmd.stdout.pipe(process.stdout)
 
 --
 # [npm](http://npmjs.org/)
-A module ecosystem that makes the possibilities nearly endless.
+## A module ecosystem that makes the possibilities nearly endless.
 --
+# Lets take a look at an example problem.
+--
+I want to use the twitter streaming API to get all the tweets containing a
+certain word/hashtag.
+
+## We need...
+* Something to interact with the twitter streaming API.
+* Some twitter api credentials.
+
+It would be easier to not write this ourselves right?
+--
+# Lets write it, with some help from npm.
+--
+## In conclusion
+
+* There are **some** good things about javascript.
+* It is getting better all the time.
+* Node has pushed javascript into the stratosphere.
+* Very low barrier to entry.
