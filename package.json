@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "gulp build && node server.js",
-    "postinstall": "bower install"
+    "postinstall": "bower install",
+    "preversion": "./build-presentations.sh"
   },
   "repository": {
     "type": "git",
