@@ -1,19 +1,16 @@
-var express = require('express')
-var bunyan = require('bunyan')
-var morgan = require('morgan')
-var logger = bunyan.createLogger({ name: 'site' })
-var app = express()
-var port = process.env.PORT || 8080
+'use strict'
 
-app.use(morgan('dev'
-  , { stream:
-      { write: function (data) {
-          logger.info((data + '').trim())          
-        }
-      }
-    }))
-app.use(express.static(__dirname + '/public'))
+const express = require('express')
+const morgan = require('morgan')
+const path = require('path')
+
+let app = express()
+let port = process.env.PORT || 8080
+
+app.use(morgan('dev'))
+
+app.use(express.static(path.join(__dirname, '/public')))
 
 app.listen(port, function () {
-  logger.info('benparnell.com started on', port)
+  console.log('benparnell.com started on', port)
 })
