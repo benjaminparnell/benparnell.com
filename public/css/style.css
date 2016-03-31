@@ -1,9 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-}
-
-#header {
-  margin-top: 180px;
+  margin-top: 100px;
 }
 
 .title a {
@@ -26,6 +23,11 @@ a:hover {
 .twitter:hover {
   border-color: #55acee;
   color: #55acee;
+}
+
+.strava:hover {
+  border-color: #fc4c02;
+  color: #fc4c02;
 }
 
 .typed-cursor{
@@ -51,4 +53,21 @@ a:hover {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+img {
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.node {
+  color: #43853d;
+}
+
+.elixir {
+  color: #4e2a8e;
+}
+
+.ruby {
+  color: #cc342d;
 }
