@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 
-const Link: React.FC<
-  { children: React.ReactNode } & React.LinkHTMLAttributes<HTMLAnchorElement>
-> = ({ children, ...props }) => {
+const Link: React.FC<React.LinkHTMLAttributes<HTMLAnchorElement>> = ({
+  children,
+  ...props
+}) => {
   return (
     <a className="text-primary" {...props}>
       {children}
