@@ -34,7 +34,7 @@ export default function Home() {
         <div className="border-t mt-4 pt-4 max-w-lg md:text-center">
           <p>
             Hi there. I&apos;m a software engineer. I currently work at{' '}
-            <Link href="https://clock.co.uk">Clock</Link>, and I&apos;ve
+            <Link href="https://www.cuckoo.co/">Cuckoo</Link>, and I&apos;ve
             previously worked at the likes of{' '}
             <Link href="https://cinch.co.uk">cinch</Link> and{' '}
             <Link href="https://booking.com">Booking.com</Link>.
