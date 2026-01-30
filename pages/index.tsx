@@ -13,6 +13,8 @@ const Link: React.FC<React.LinkHTMLAttributes<HTMLAnchorElement>> = ({
 }
 
 export default function Home() {
+  const yearsSince2014 = new Date().getFullYear() - 2014
+  
   return (
     <>
       <Head>
@@ -34,14 +36,14 @@ export default function Home() {
         <div className="border-t mt-4 pt-4 max-w-lg md:text-center">
           <p>
             Hi there. I&apos;m a software engineer. I currently work at{' '}
-            <Link href="https://www.cuckoo.co/">Cuckoo</Link>, and I&apos;ve
+            <Link href="https://www.onthebeach.co.uk/">On The Beach</Link>, and I&apos;ve
             previously worked at the likes of{' '}
             <Link href="https://cinch.co.uk">cinch</Link> and{' '}
             <Link href="https://booking.com">Booking.com</Link>.
           </p>
 
           <p className="mt-4">
-            I like solving hard problems with elegant solutions. I have 8 years
+            I like solving hard problems with elegant solutions. I have {yearsSince2014} years
             experience in developing full stack applications at a bunch of
             different scales and team sizes, along with a proven track record of
             leadership and delivery.
